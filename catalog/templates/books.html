@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}
+<title>Books Section</title>
+{% endblock %}
+
+{% block content %}
+<h1>List of Books</h1>
+<p>These are the books in Library:</p>
+<ul>
+    <li><strong>Total Books: </strong>{{ num_books }}</li>
+    <li><strong>List of Books: </strong>{{ books }}</li>
+</ul>
+{% endblock %}
