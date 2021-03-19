@@ -158,5 +158,5 @@ STATIC_URL = '/static/'
 # Static file serving.
 # http://whitenoise.evans.io/en/stable/django.html#django-middleware
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-
+DISABLE_COLLECTSTATIC = 1
 django_heroku.settings(locals())
