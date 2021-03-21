@@ -4,4 +4,3 @@ django-environ==0.4.5
 gunicorn==20.0.4
 whitenoise==5.2.0
 psycopg2-binary==2.8.6
-python-decouple==3.4
