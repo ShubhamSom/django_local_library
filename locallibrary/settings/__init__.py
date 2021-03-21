@@ -11,7 +11,7 @@ from .common import *
 from decouple import config
 
 
-if config('DEBUG', cast=bool) == 'dev':
+if config('DEBUG', cast=bool):
     from .development import *
 else:
     from .production import *
